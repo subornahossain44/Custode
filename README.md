@@ -18,7 +18,7 @@ Inventory and transactions stored in binary files (items.dat, transactions.dat).
 Build & Run
 bash
 
-git clone https://github.com/<your-username>/custode-inventory.git
+git clone https://github.com/ZakariaNomaan11/Custode
 cd custode-inventory
 gcc main.c -o custode
 ./custode
