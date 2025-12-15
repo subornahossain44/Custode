@@ -1,7 +1,9 @@
-#include <stdio.h>
+#include<stdio.h>
 #include <string.h>
-#include "category_item.c"   // only the CRUD module, no main here
+#define TEST_BUILD
+#include "Suborna.c"   /* your full code above, but wrap its main/start in #ifndef TEST_BUILD */
 
+/* Helper to reset in-memory data for tests */
 void resetData() {
     categoryCount = 0;
     itemCount = 0;
