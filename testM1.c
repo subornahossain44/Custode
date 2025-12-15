@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #define TEST_BUILD
-#include "custode.c"
+#include "Custode.c"
 
 int categoryCount = 0;
 int itemCount = 0;
