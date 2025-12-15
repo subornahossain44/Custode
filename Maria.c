@@ -31,7 +31,7 @@ void recordTransaction(StockTransaction *tx) {
 
 void doStock(const char *username, const char *role, StockType type) {
     int id, qty;
-    listItems();
+    listItems(); 
     printf("Item ID: ");
     scanf("%d", &id);
     printf("Quantity: ");
